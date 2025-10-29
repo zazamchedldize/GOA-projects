@@ -6,8 +6,8 @@
 # თუ student == "yes" და ასაკი მეტია 12-ზე -> "ბილეთი ნახევარ ფასად"
 # სხვა შემთხვევაში -> "სრული ფასი უნდა გადაიხადო"
 
-age=int(input("Enter your age:"))
-student=input("Are you student?(yes/no)")
+age=int(input("შეიყვნაეთ ასაკი:"))
+student=input("სტუდენტი ხარ?(yes/no)")
 
 if age<12 or age>65:
     print("ბილეთი უფასოა")
