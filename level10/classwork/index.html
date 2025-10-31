@@ -1,0 +1,87 @@
+    <!--1)შექმენით გოას საიტზე რეგისტრაციის ფორმა , სადაც მომხმარებელი შეიყვანს სახელს, გვარს ,მეილს ,ასაკს ,უნდა აირჩიოს GENDER: MALE FEMALE. გამოიყენეთ checkbox ტიპის ინფუთი რომლითაც აირჩევთ გოას რამდენიმე კურსს , თუ რომელზე გინდათ სწავლა,ბოლოს დაამატეთ submit ტიპის ინფუთი -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">Enter Name</label>
+            <input type="text" id="name" name="username">
+            
+            <br>
+            <br>
+
+            <label for="last_name">Enter Last Name</label>
+            <input type="text" id="last_name" name="userlast_name">
+
+            <br>
+            <br>
+
+            <label for="email">Enter Email</label>
+            <input type="email" id="email" name="useremail">
+
+            <br>
+            <br>
+
+            <label for="age">Enter Age</label>
+            <input type="number" id="age" name="userage">
+
+            <br>
+            <br>
+
+            <h1>Choose Gender</h1>
+
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Malegender">
+
+            <br>
+            <br>
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Femalegender">
+            
+            <br>
+            <br>
+
+            <h2>Courses</h2>
+
+            <label for="python">Python</label>
+            <input type="checkbox" id="python">
+
+            <br>
+            <br>
+
+        
+        <label for="frontend">Frontend</label>
+        <input type="checkbox" id="frontend">
+
+            <br>
+            <br>
+        
+
+             <label for="backend">Backend</label>
+            <input type="checkbox" id="backend">
+
+            <br>
+            <br>
+
+       <label for="design">Design</label>
+        <input type="checkbox" id="design">
+        <br>
+        <br>
+
+        <label for="web-development">Web-Development</label>
+        <input type="checkbox" id="web-development">
+
+        <br>
+        <br>
+        
+        <input type="submit" value="Register">
+        
+        </form>
+    </body>
+    </html>
