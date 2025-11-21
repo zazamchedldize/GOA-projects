@@ -2,5 +2,9 @@
 
 number=int(input("Enter number:"))
 
-for i in range(2, number+1):
+i = 2
+
+while i < number:
     print(i)
+
+    i = i + 1
