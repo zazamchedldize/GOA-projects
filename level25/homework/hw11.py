@@ -2,10 +2,12 @@
 
 nums = []
 
-num = input("შეიყვანე რიცხვი (stop გასაჩერებლად): ")
+while True:
+    num = input("შეიყვანე რიცხვი ან დაწერე stop: ")
 
-while num != "stop":
+    if num == "stop":
+        break
+
     nums.append(int(num))
-    num = input("შეიყვანე რიცხვი (stop გასაჩერებლად): ")
 
 print(nums)
