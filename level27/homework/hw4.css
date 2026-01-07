@@ -1,0 +1,22 @@
+p {
+    color:blue;
+    text-align:center;
+    background-color: white;
+    font-size:50px;
+    border: 2px dashed green;
+}
+
+h4 {
+    color:green;
+    text-align:right;
+    background-color:grey;
+    font-size:30px;
+    border: 2px dashed yellow;
+}
+
+button {
+    color:red;
+    background-color: black;
+    border: 2px solid purple;
+    font-size:30px;
+}
