@@ -1,0 +1,19 @@
+h1 {
+    color:red;
+    background-color:grey;
+}
+
+h3 {
+    color:red;
+    background-color:grey;
+}
+
+p {
+    color:green;
+}
+
+button {
+    width: 77px;
+    height: 77px;
+    border: 2px solid red;
+}
