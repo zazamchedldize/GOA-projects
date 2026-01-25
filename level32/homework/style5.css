@@ -1,0 +1,12 @@
+/* 5)
+შექმენით ორი <div> და ორივეში მოათავსე რაიმე ტექსტები.
+
+მიანიჭეთ ID ები და CSS-ში შეუცვალეთ ფონის ფერი ამ დივებს. */
+
+#first {
+    background-color: green;
+}
+
+#second {
+    background-color: red;
+}
