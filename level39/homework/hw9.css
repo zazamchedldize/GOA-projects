@@ -1,0 +1,9 @@
+p {
+    font-size:80px;
+    text-align:center;
+    text-shadow:
+    3px 0px 2px rgb(72, 169, 72),
+    3px 0px 3px rgb(72, 169, 72),
+    0px 1px 3px rgb(72, 169, 72),
+    0px 2px 4px rgb(72, 169, 72);
+}
