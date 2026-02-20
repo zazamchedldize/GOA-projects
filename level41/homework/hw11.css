@@ -1,0 +1,16 @@
+/* 11)შექმენი <a> ელემენტი.
+:link მდგომარეობაში:
+
+ჰქონდეს background-color
+
+ტექსტი იყოსიასამნისფერი
+
+და კალიგრაფია ქონდეს --> ის რაც დააიმპორტე მე-4 ე დავალებაში */
+
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+In&display=swap');
+
+a:link {
+    background-color: green;
+    color:purple;
+    font-family: "Betania Patmos In", cursive;
+}

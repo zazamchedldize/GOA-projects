@@ -1,0 +1,18 @@
+/* 4)შექმენი მანქანიების დალაგებული სია.
+
+hover-ზე თითოეულ li-ზე:
+
+background-color შეიცვალოს
+
+ტექსტი გახდეს uppercase
+
+შეეცვალოს კალიგრაფია(დააიმპორტეთ google font საიტიდან ------>  შემდეგ დავალებებშიც გამოგადგებათ) */
+
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+In&display=swap');
+
+
+li:hover {
+    background-color: blue;
+    text-transform: uppercase;
+    font-family: "Betania Patmos In", cursive;
+}

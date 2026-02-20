@@ -1,0 +1,13 @@
+/* 8)შექმენი card div:
+
+hover-ზე შეიცვალოს background
+
+active-ზე შეიცვალოს border */
+
+div:hover {
+    background-color: blue;
+}
+
+div:active {
+    border:2px dotted red;
+}

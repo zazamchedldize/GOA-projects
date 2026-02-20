@@ -1,0 +1,8 @@
+/* 7)შექმენი ღილაკი.
+active-ზე:
+
+border გახდეს უფრო სქელი და წითელი ფერის */
+
+button:active {
+    border:10px solid red;
+}

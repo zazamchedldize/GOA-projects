@@ -1,0 +1,10 @@
+/* 1)შექმენი ღილაკი, რომელსაც hover-ზე:
+
+background-color ეცვლება და ხდება ლურჯი
+
+ტექსტის ფერი იცვლება და ხდება წითელი */
+
+button:hover {
+    background-color: blue;
+    color:red;
+}
