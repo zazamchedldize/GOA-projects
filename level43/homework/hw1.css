@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    
+}
+
+.color {
+    color:teal;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
