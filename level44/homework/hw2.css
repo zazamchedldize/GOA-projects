@@ -1,0 +1,14 @@
+input[type="text"] {
+    background-color: rgb(246, 53, 53);
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+    border:2px solid red;
+    margin:5px;
+}
+label {
+    color:red;
+    display:flex;
+}
