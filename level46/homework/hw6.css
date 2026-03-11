@@ -1,0 +1,12 @@
+/* 6)შექმენი input მიეცი ზომები და უკანა ფონის ფერი
+
+შენი დავალებაა რომ ამ დივს გაუკეთო ოთხივე მხარეს განსხვავებული სტილის და განსხვავებული ფერის ბორდერები */
+
+input {
+    font-size:40px;
+    background-color: lightgray;
+    border-top: 4px solid red;
+    border-right: 4px dashed blue;
+    border-bottom: 4px dotted green;
+    border-left: 4px double orange;
+}

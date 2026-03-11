@@ -26,3 +26,5 @@
 #     for i in arr:
 #         result.append(i * 2)
 #     return result
+
+#codewars 6
