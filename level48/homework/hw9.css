@@ -1,0 +1,17 @@
+/* 9)შექმენი კონტეინერი 4 ბლოკით (ამ 4 ივე დივშ ჩაწერე რიცხვები 1 2 3 4 და ეს რიცხვებიც გადმოიტანე ამ ბლოკების შუაში).
+
+ელემენტები დაალაგე ვერტიკალურად რომ იმოძრაონ ზემოდან ქვემოთ მაგრამ უკუღმა, ცენტრში ჰორიზონტალურად და შუაში ვერტიკალურად. */
+
+
+.container {
+    display: flex;
+    flex-direction: column-reverse; 
+    justify-content: center;        
+    align-items: center;            
+}
+
+.box {
+    display: flex;
+    justify-content: center;         
+    align-items: center;             
+}

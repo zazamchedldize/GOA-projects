@@ -1,0 +1,9 @@
+/* 8)შექმენი კონტეინერი (height: 300px) და 3 ბლოკი(ეს სამი ბლოკი განათავსე ვერტიკაალურ პოზოციაზე და შშემდეგ==> */
+
+.parent {
+    height:300px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    display: flex;
+}
