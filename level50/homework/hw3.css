@@ -1,0 +1,26 @@
+.parent {
+  display: flex;
+  justify-content: space-around;           
+  
+  background-color: #8e44ad;
+  height: 600px;
+  width: 900px;
+}
+
+.child1 {
+    background-color: orange;
+    width:150px;
+    height:80px
+}
+
+.child2 {
+    height:80px;
+    width:100px;
+    background-color: orange;
+}
+
+.child3 {
+    height:80px;
+    width:180px;
+    background-color: orange;
+}

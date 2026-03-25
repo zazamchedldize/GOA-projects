@@ -1,0 +1,22 @@
+/* 12)შექმენი 6 ბლოკი ერთ კონტეინერში, მაგრამ:
+
+კონტეინერს მიეცი პატარა სიგანე მაგ 300px
+
+გამოიყენე ისეთი მნიშვნელობა flex-wrap-ზე, რომ ელემენტები არ გადავიდნენ ახალ ხაზზე ანუ არ შეიფუთნონ მშობელ ელემენტი */
+
+.parent {
+    width:300px;
+    display: flex;
+    flex-wrap:nowrap;
+    border:2px solid red
+}
+
+body {
+    background-color: black;
+}
+
+.child {
+    background-color: blue;
+    width:300px;
+    height:200px;
+}
