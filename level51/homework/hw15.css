@@ -1,0 +1,43 @@
+/* 15)გაქვს navigation bar:
+
+logo
+menu --> home, cottact , about us ...
+button
+
+გააკეთე ისე, რომ:
+
+პატარა ეკრანზე menu შემცირდეს
+მაგრამ logo და button მაქსიმალურად შენარჩუნდეს */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+
+.image img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-grow: 1; 
+  flex-shrink: 1; 
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  white-space: nowrap;
+}

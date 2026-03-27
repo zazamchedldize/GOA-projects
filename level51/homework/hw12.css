@@ -1,0 +1,35 @@
+/* 12)გაქვს 3 ელემენტი კონტეინერში 
+
+ყველას აქვს ერთნაირი flex-basis
+
+მაგრამ shrink მნიშვნელობები განსხვავებულია:
+პირველი: 1
+მეორე: 2
+მესამე: 3
+
+დააკვირდი როგორ განსხვავებულად მცირდება თითოეული  */
+
+.parent {
+    width:900px;
+    height:600px;
+    border:2px solid red;
+    display: flex;
+}
+
+.child {
+    background-color: blue;
+    flex-basis:180px;
+    height:100px;
+}
+
+.first {
+    flex-shrink: 1;
+}
+
+.second {
+    flex-shrink: 2;
+}
+
+.third {
+    flex-shrink: 3;
+}
