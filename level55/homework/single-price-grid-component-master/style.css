@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:  "Karla", sans-serif;
+    height:100vh;
+    background-color: rgb(230, 239, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    width:635px;
+    height:470px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.inside1 {
+    height:45%;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:35px;
+}
+
+.inside2 {
+    height:55%;
+    width:100%;
+    display: flex;
+}
+
+.child1 {
+    width:50%;
+    height:100%;
+    background-color: rgb(43, 179, 177);
+}
+
+.child2 {
+    width:50%;
+    height:100%;
+    background-color: rgb(74, 190, 189);
+}
+
+h1 {
+    color:hsl(179, 62%, 43%);
+    font-size:25px;
+}
+
+#p1 {
+    color:hsl(71, 73%, 54%);
+    font-size:17px;
+    margin-top:7px;
+    font-weight: bolder;
+}
+
+#p2 {
+    opacity: 40%;
+    font-size:15px;
+    line-height: 1.4;
+}
+
+.child1 {
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding:33px;
+    gap:10px;
+}
+.price {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    margin-top:5px;
+ }
+
+ h3 {
+    font-size:30px;
+ }
+
+#month {
+    opacity: 60%;
+}
+
+#p3 {
+    opacity: 80%;
+}
+
+button {
+    width:100%;
+    height:45px;
+    background-color: rgb(191, 223, 50);
+    color:rgb(255, 255, 255);
+    border:none;
+    border-radius: 5px;
+    margin-top:15px;
+    font-size:16px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px grey;
+
+}
+
+h2{
+    font-size:17px;
+}
+
+.child2 {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding:35px;
+    gap:15px;
+}
+
+#p5 {
+    opacity: 60%;
+    font-size:14px;
+    line-height: 1.4;
+    width:65%;
+}
+
+#p4 {
+    font-weight: bold;
+}

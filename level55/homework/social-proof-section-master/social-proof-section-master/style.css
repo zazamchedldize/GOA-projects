@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* TOP */
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.left {
+  max-width: 450px;
+}
+
+.left h1 {
+  color: #512051;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  color: #927b91;
+  line-height: 1.5;
+}
+
+/* RIGHT */
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f7f2f7;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.rating p {
+  margin: 0;
+}
+
+/* STARS */
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.stars img {
+  width: 16px;
+}
+
+/* SHIFT (როგორც დიზაინში) */
+
+.shift1 {
+  margin-left: 25px;
+}
+
+.shift2 {
+  margin-left: 50px;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #512051;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* USER */
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.user h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.verified {
+  font-size: 12px;
+  color: #ee68a4;
+  margin: 0;
+}
+
+/* STAGGER CARDS */
+
+.middle {
+  margin-top: 20px;
+}
+
+.bottom {
+  margin-top: 40px;
+}
