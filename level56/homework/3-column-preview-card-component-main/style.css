@@ -51,12 +51,13 @@ body {
 h1 {
     color:white ;
     font-family: "Big Shoulders", sans-serif;
-    font-size:35px;
+    font-size:30x;
 }
 
 #p1 {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.7;
+    font-size:15px;
 }
 
 #sedan {
@@ -102,6 +103,7 @@ h1 {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.7;
     width:225px;
+    font-size:15px;
 }
 
 #bt2 {
@@ -133,6 +135,7 @@ h1 {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.7;
     width:230px;
+    font-size:15px;
 }
 
 
