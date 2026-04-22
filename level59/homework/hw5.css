@@ -1,0 +1,22 @@
+/* <!-- 5)შექმენი იგივე სტრუქტურა რაც წინა დავლაებში
+
+child გადაიტანე parent-ის ცენტრთან ახლოს
+
+გამოიყენე % ები --> */
+
+.parent {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+

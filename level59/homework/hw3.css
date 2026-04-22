@@ -1,0 +1,28 @@
+/* 3)შექმენი 2 box:
+
+პირველი — ჩვეულებრივი (static)
+მეორე — relative
+
+relative box გადაადგილე მარცხნივ - 40px
+
+კითხვა:
+რა განსხვავებაა ამ ორს შორის ვიზუალურად და layout-ში? */
+
+
+.parent {
+    width:900px;
+    height: 600px;
+    border:2px solid black;
+
+}
+
+.first {
+    background-color: blue;
+    position: static;
+}
+
+.second {
+    background-color: red;
+    position: relative;
+    right:40px;
+}

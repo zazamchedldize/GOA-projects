@@ -1,0 +1,33 @@
+/* 4)მოცემულია -->
+<div class="parent">
+  <div class="child"></div>
+</div>
+
+
+დავალება:
+
+parent → 300x300
+child  → 100x100 ლურჯი ფერის , განათავსე ქვედა მშობლის მარცხენა კუთხეში
+
+მინიშნება:
+
+ერთს უნდა ჰქონდეს relative
+მეორეს absolute
+
+თუ არ გამოვა შეგიძლიათ მოიძიოთ თუ როგორ ვამოძრაოთ position ის მქონე მშობელ ელემენტში შვილი ელემენტები */
+
+.parent {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
