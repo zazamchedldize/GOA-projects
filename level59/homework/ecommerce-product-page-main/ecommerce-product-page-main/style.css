@@ -51,7 +51,8 @@ ol{
 
 h1{
      font-size: 25px;
-     font-weight: 1000;
+     font-weight: 750;
+     font-family: "Kumbh Sans", sans-serif;
 }
 
 #img1{
@@ -84,7 +85,7 @@ h1{
      align-items: center;
      justify-content: space-between;
      gap: 50px;
-     padding: 60px 150px;
+     padding: 85px 150px;
 }
 
 h3{
@@ -183,4 +184,9 @@ h3{
 #p5{
       font-size: 13px;
       font-weight: 700;
+}
+
+.imgss1 {
+     opacity: 50%;
+     border: 2px solid hsl(26, 100%, 55%);
 }
