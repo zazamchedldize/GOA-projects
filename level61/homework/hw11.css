@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width:200px;
+    height: 200px;
+    position: relative;
+}
+
+.box {
+    border-radius: 18px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+}
+
+.black {
+    background-color: black;
+    z-index:1;
+    top:0px;
+    left:0px;
+}
+
+.blue {
+    background-color: blue;
+    top:50px;
+    left:50px;
+    z-index:2;
+}
+
+.green {
+    background-color: green;
+    top:100px;
+    left:100px;
+    z-index:1;
+}

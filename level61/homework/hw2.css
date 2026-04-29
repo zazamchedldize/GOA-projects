@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+img {
+    width:240px;
+    height:150px;
+    position:sticky;
+    top:0px;
+}
+
+.parent {
+    text-align: center;
+}
+
+h1 {
+    font-size:55px;
+}
+
+h2 {
+    font-size:45px;
+}

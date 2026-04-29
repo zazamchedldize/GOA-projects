@@ -1,0 +1,47 @@
+.parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.first {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.second {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: deepskyblue;
+    top: 60px;
+    left: 80px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.third {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    top: 120px;
+    left: 50px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

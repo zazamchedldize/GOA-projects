@@ -1,0 +1,17 @@
+/* <!-- შექმენი 3 საინტერესო და დახვეწილი მაგალითი position fixed ის გამოყენებით --> */
+
+body {
+    height: 100vh;
+}
+
+.parent {
+    text-align: center;
+}
+
+h1 {
+    position: fixed;
+    top:600px;
+    left:0px;
+    background-color: purple;
+    color:white;
+}

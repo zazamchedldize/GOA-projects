@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+}
+
+.parent {
+    text-align: center;
+}
+
+img {
+    width:240px;
+    height:150px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: start;
+    gap:15px;
+    list-style-type: none;
+    height: 40px;
+    background-color: hsl(195, 51%, 40%);
+    border-bottom: 2px solid gray;
+}
+
+header {
+    position: sticky;
+    top:0px;
+}
+ li {
+    color:white
+ }
+
+.p1 {
+    font-size:30px;
+    font-weight: bold;
+}

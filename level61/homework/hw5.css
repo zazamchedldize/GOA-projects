@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+.parent {
+    text-align: center;
+}
+
+h1 {
+    position: sticky;
+    top:40px;
+    background-color: red;
+    color:white;
+}
