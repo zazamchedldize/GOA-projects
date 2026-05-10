@@ -1,0 +1,15 @@
+/* 4)შექმენი div:
+
+სურათი იყოს ქვედა მარცხენა მხარეს
+
+გამეორდეს y ზე
+
+ზომა იყოს 80px
+
+ბოლოს - გამოიყენე shorthand იც */
+
+.parent {
+    width: 400px;
+    height: 250px;
+    background: url("dog-7206321_640.jpg") repeat-y left bottom / 80px;
+}

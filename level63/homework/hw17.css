@@ -1,0 +1,16 @@
+/* 17)შექმენი ბლოკი და hover-ზე:
+
+შემცირდეს
+მარცხნივ გადავიდეს
+ოდნავ მოტრიალდეს
+origin იყოს ქვედა მარჯვენა კუთხე */
+
+.parent {
+    width:300px;
+    height: 300px;
+    background-color: orange;
+}
+
+.parent:hover {
+    transform: scale(0.8) rotate(-10px) translate(-30pxl)
+}

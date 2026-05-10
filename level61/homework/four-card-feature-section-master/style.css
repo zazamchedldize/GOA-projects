@@ -11,12 +11,12 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  min-height:100vh;
+  height:100vh;
   font-family:"Poppins",sans-serif;
 }
 
 .main{
-  width:1350px;
+  width:1220px;
   background:white;
   padding:60px;
 }
