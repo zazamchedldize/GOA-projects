@@ -1,0 +1,18 @@
+/* 2)შექმენი სათაური.
+
+პირობა:
+
+შექმენი:
+--text-color
+--text-size
+გამოიყენე ორივე h1-ზე. */
+
+:root {
+    --text-color:red;
+    --text-size:40px;
+}
+
+h1 {
+    color:var(--text-color);
+    font-size:var(--text-size)
+}

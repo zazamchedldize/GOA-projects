@@ -1,0 +1,19 @@
+/* 1)შექმენით როოთ ში 5 ცვლადი , ფერის  , ტექსტის ზომის , ბორდერ რადიუსის , უკანა ფონის ფერის , ტექსტის სისქის 
+
+შენი დავალებაა რომ ეს ცვლადებში შენახულიმნიშვნელობა მიანიჭო რაიმე ტექსტს */
+
+:root {
+    --color:red;
+    --fontsize: 40px;
+    --borderradius: 50%;
+    --backgrcolor:green;
+    --fontweight:400;
+}
+
+p {
+    color:var(--color);
+    font-size:var(--fontsize);
+    border-radius: var(--borderradius);
+    background-color: var(--backgrcolor);
+    font-weight: var(--fontweight);
+}

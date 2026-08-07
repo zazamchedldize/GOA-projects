@@ -1,0 +1,19 @@
+/* 1)შექმენი div და გამოიყენე CSS ცვლადი, რომელიც განსაზღვრავს მის ფონის ფერს.
+
+პირობა:
+
+შექმენი --bg-color.
+div-ის background-color აიღე ამ ცვლადიდან */
+
+:root {
+    --bg-color:green;
+}
+
+.parent {
+    background-color: var(--bg-color);
+}
+
+.parent {
+    width:300px;
+    height: 300px;
+}
