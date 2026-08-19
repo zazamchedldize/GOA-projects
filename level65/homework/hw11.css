@@ -1,0 +1,15 @@
+/* 11)შექმენი ფოტო (img), რომელსაც hover-ზე:
+rotate(15deg) გაეკეთოს
+opacity შემცირდეს
+transition :all 3s */
+
+img {
+    width:200px;
+    height: 200px;
+    transition: all 3s;
+}
+
+img:hover {
+    transform: rotate(15deg);
+    opacity: 0.5;
+}

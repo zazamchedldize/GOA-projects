@@ -1,0 +1,11 @@
+/* 12)შექმენი 5 ლინკი სხვადასხვა საიტზე.
+:link მდგომარეობაში:
+
+ყველა იყოს მწვანე
+
+font-weight იყოს bold */
+
+a:link {
+    color:green;
+    font-weight: bold;
+}

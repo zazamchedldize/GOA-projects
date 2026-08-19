@@ -1,0 +1,14 @@
+/* 1)შექმენი div (300x300) და დაუყენე background სურათი ისე, რომ:
+
+იყოს ცენტრში
+არ გამეორდეს
+ზომა იყოს contain
+
+ბოლოს გადააკეთე ეს ყველაფერი background shorthand-ად */
+
+.parent {
+    width:300px;
+    height: 300px;
+    background: url("dog-7206321_640.jpg") center/contain no-repeat;
+
+}

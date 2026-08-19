@@ -1,0 +1,51 @@
+/* 2)შექმენი დივი,მეიცი სიმაღლე და სიგანე 600პხ  და წითელი ფერი
+
+შენი დავალებაა რომ როდესაც ეკრენის ზომა ჩამოცდება 1000px ---დივი გახდეს მწვანე და სიგანეში გახდეს 500px ასევე კუთხეები მოუმრგვალდეს 10პხ ით
+
+
+შენი დავალებაა რომ როდესაც ეკრენის ზომა ჩამოცდება 600px ---დივი გახდეს ლურჯი და სიგანეში გახდეს 400px ასევე კუთხეები მოუმრგვალდეს 30პხ ით
+
+
+შენი დავალებაა რომ როდესაც ეკრენის ზომა ჩამოცდება 4000px ---დივი გახდეს ვარდისფერი და სიგანეში გახდეს 300px ასევე კუთხეები მოუმრგვალდეს 50% ით */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width:600px;
+    height: 600px;
+    background-color: red;
+}
+
+@media (max-width:1000px) {
+    .parent {
+        background-color: green;
+        width:500px;
+        border-radius:10px
+    }
+}
+
+@media (max-width:600px) {
+    .parent {
+        background-color: blue;
+        width:400px;
+        border-radius:30px;
+    }
+}
+
+@media (max-width:400px) {
+    .parent {
+        background-color: pink;
+        width:300px;
+        border-radius:50%;
+    }
+}

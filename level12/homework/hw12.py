@@ -1,0 +1,1 @@
+#12)შეასრულეთ SOLOLEARN FOR LOOOP თავის ჩათვლით

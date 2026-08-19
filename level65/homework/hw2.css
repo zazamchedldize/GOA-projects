@@ -1,0 +1,13 @@
+/* 2)შექმენი ღილაკი (button), რომელსაც hover-ზე: ტექსტის ფერი შეიცვალოს 0.2s border-radius გაიზარდოს 0.5s background შეიცვალოს 0.7s background-ის transition დაიწყოს 0.3s დაგვიანებით  */
+
+button {
+    width:300px;
+    height:100px;
+    transition: color 2.2s, border-daius 0.5s, background-color 0.7s 0.3s;
+}
+
+button:hover {
+    color:red;
+    border-radius:15%;
+    background-color: black;
+}

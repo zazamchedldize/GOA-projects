@@ -1,0 +1,42 @@
+/* 9)გაქვს 4 ელემენტი ერთ რიგში.
+
+მოაწყე ისე, რომ:
+
+პირველი იყოს 100px
+მეორე — 200px
+მესამე — 300px
+მეოთხე — 150px
+
+გამოიყენე flex-basis თითოეულზე */
+
+.parent {
+    border: 2px solid red;
+    width:900px;
+    height: 600px;
+    display: flex;
+}
+
+.child {
+    background-color: blue;
+    height:100px;
+}
+
+.first {
+    flex-basis: 100px;
+    border:2px solid black;
+}
+
+.second {
+    flex-basis: 200px;
+    border:2px solid green;
+}
+
+.third {
+    flex-basis: 300px;
+    border:2px solid aqua;
+}
+
+.fourth {
+    flex-basis: 150px;
+    border:2px solid purple;
+}

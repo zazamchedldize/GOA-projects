@@ -1,0 +1,69 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:400px;
+    gap:20px
+}
+
+.child1 {
+    background-color: red;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    animation-name:first;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.child2 {
+    background-color: cyan;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    animation-name:second;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+
+.child3 {
+    background-color: yellow;
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    animation-name:third;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes first {
+    0% {
+       background-color: red;
+    }
+
+    50% {
+        transform: translateY(-70px);
+    }
+}
+
+@keyframes second {
+    0% {
+        background-color:cyan;
+    }
+
+    50% {
+        transform:translateY(-50px)
+    }
+}
+
+@keyframes third {
+    0% {
+        background-color:yellow;
+    }
+
+    50% {
+        transform:translateY(-50px)
+    }
+}

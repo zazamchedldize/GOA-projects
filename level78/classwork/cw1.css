@@ -1,0 +1,48 @@
+/* 1)შექმენით მშობელი დივი ზომებით 800PX X 800PX მიეცით ბორდერიც
+
+შიგნით შექმენით გრიდი შემდეგი მონაცემებით --> 4 როუ , 4 ქოლუმნი რომლის ზომებიც იქნება 150px (გამოიყენეთ repeat)
+
+კუბიკებთიშექმენით შესაბამისი რაოდენობის დივები და მიეცით ზზომები --> 100px x 100px და მწვანე ფერი
+
+შენი დავალებაა მთლიანი კონტნეტი(გრიდი) გადმოიტანო მშობელი ელემენტის ქვევით მარჯვენა კუთხეში
+
+ასევე უშუალოდ კუბიკებში მყოფი მწვანე დივები განალაგე შემდეგნირად --> იყვნენ კუბიკის ქვემოთ მხარეს და შუაში x ღერძზე
+
+ასევე ამ მწვანე დივებიდან ერთ ერთი მოათავსეთ კუბიკის ქვემოთ მარჯცხენა კუთხეში */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(4, 150px);
+    justify-content: end;
+    align-content: end;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    justify-self: center;
+    align-self: end;
+}
+
+.special {
+    justify-self: end;
+    align-self: end;
+}

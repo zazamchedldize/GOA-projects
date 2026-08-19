@@ -1,0 +1,13 @@
+/* 15)ექმენი ფოტო, რომელსაც hover-ზე:
+scale(1.1) და rotate(30deg) ერთად ქონდეს 
+all 1.5s */
+
+img {
+    width:300px;
+    height: 300px;
+    transition: all 1.5s;
+}
+
+img:hover {
+    transform: scale(1.1) rotate(360deg);
+}

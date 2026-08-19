@@ -1,0 +1,33 @@
+/* 6)შექმენი დალაგებული სია სადაც შეიყვანთ 5 ავტომობილის სახელს]
+
+თქვენი დავალებაა 5 ივე ავტომობილის სახელს ქონდეს განსხვავებული სილები,გამოიყენეთ ID ები */
+
+#first{
+    color:green;
+    background: red;
+    font-size:12px;
+}
+
+#second {
+    color:red;
+    background: blue;
+    font-size:22px;
+}
+
+#third {
+    color:blue;
+    background: yellow;
+    font-size:18px;
+}
+
+#fourth {
+    color:green;
+    background: red;
+    font-size:30px;
+}
+
+#fifth {
+    color: black;
+    background: pink;
+    font-size:40px;
+}

@@ -1,0 +1,24 @@
+/* 4)ჩაწერე არეული ტექსტი:
+
+hTmL aNd cSs ArE pOwErFuL
+
+
+გააკეთე:
+
+ერთი ვერსია uppercase
+
+ერთი lowercase
+
+ერთი capitalize */
+
+.first {
+    text-transform: uppercase;
+}
+
+.second {
+    text-transform: lowercase;
+}
+
+.third {
+    text-transform: capitalize;
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(150, 203, 244)
+}
+
+label {
+    color:white;
+    display: block;
+
+}
+
+input {
+    border-radius: 15px;
+    border:2px white solid;
+}

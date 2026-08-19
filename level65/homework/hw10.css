@@ -1,0 +1,14 @@
+/* 10)შექმენი div, რომელსაც hover-ზე:
+scale(1.2) 
+transition იყოს 0.4s */
+
+.div {
+    width:100px;
+    height: 100px;
+    background-color: green;
+    transition: transform 0.4s;
+}
+
+.div:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+/* 10)შექმენი ლინკი
+:link მდგომარეობაში:
+
+ჰქონდეს border
+
+background იყოს ღია ფერის */
+
+a:link {
+    border:2px solid red;
+    background-color:ghostwhite;
+}

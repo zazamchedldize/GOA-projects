@@ -1,0 +1,105 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:350px;
+    gap:60px;
+}
+
+.child1 {
+    background-color: green;
+    animation-name:first;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.child2 {
+    background-color: grey;
+    animation-name:second;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes first {
+    0% {
+        background-color: green;
+        transform: scale(1);
+    }
+
+    20% {
+        background-color: grey;
+        transform: scale(1.2);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    55% {
+        background-color: cyan;
+        transform: scale(1.2);
+    }
+
+    65% {
+        transform: scale(1);
+    }
+
+    85% {
+        background-color: red;
+        transform: scale(1.2);
+    }
+
+    95% {
+        transform: scale(1);
+    }
+
+    100% {
+        background-color: green;
+        transform: scale(1);
+    }
+}
+
+@keyframes second {
+    0% {
+        background-color: grey;
+        transform: scale(1);
+    }
+
+    20% {
+        background-color: cyan;
+        transform: scale(1.2);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    55% {
+        background-color: red;
+        transform: scale(1.2);
+    }
+
+    65% {
+        transform: scale(1);
+    }
+
+    85% {
+        background-color: green;
+        transform: scale(1.2);
+    }
+
+    95% {
+        transform: scale(1);
+    }
+
+    100% {
+        background-color: grey;
+        transform: scale(1);
+    }
+}

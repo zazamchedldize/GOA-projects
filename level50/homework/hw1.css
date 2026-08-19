@@ -1,0 +1,26 @@
+.parent {
+    display:flex;
+    justify-content: space-between;
+    width:900px;
+    height:600px;
+    border: 2px solid red;
+    background-color: rgb(81, 13, 81);
+}
+
+.child1 {
+    background-color: rgb(200, 107, 0);
+    height:80px;
+    width:150px;
+}
+
+.child2 {
+    background-color: rgb(200, 107, 0);
+    height:80px;
+    width:100px;
+}
+
+.child3 {
+    background-color: rgb(200, 107, 0);
+    height:80px;
+    width:180px;
+}

@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 24px 117px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.hero {
+    background-color: hsl(48, 14%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 117px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 42px;
+    width: 536px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 26px;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.info p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info button {
+    border-radius: 100px;
+    background-color: #000000;
+    height: 36px;
+    width: 130px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 50%;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.txtdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.txtdiv h2 {
+    font-weight: 700;
+    font-size: 36px;
+    padding: 0px 15px;
+}
+
+.txtdiv p {
+    font-size: 20px;
+}
+
+.long {
+    width: 45%;
+    margin-top: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.samecard {
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.samecard h4 {
+    width: 45%;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.samecard p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.samecard h5 {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.samediv {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    padding: 50px 30px;
+}
+
+.samediv img {
+    width: 350px;
+}
+
+.samediv2 {
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.txtdiv2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.txtdiv2 h4 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.txtdiv2 p {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.txtdiv2 h3 {
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.section4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 40px;
+    justify-items: center;
+    gap: 70px;
+}
+
+.circlediv p {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section4 h2 {
+    font-size: 36px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.griddiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 65%;
+    column-gap: 200px;
+    row-gap: 100px;
+    align-items: start;
+}
+
+.circlediv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.people {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+}
+
+.section5 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.samecard2 img {
+    margin-bottom: 40px;
+}
+
+.samecard2 {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.samecard2 h3 {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.section6 h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section6 p {
+    font-size: 17px;
+    font-weight: 700;
+    width: 496px;
+    text-align: center;
+}
+
+.formdiv1 form {
+    display: flex;
+    gap: 10px;
+}
+
+.formdiv1 input {
+    width: 184px;
+    padding: 10px;
+    border: 1px solid #757575;
+    outline: none;
+}
+
+.formdiv2 input {
+    width: 378px;
+    padding: 10px;
+    border: 1px solid #757575;
+    outline: none;
+}
+
+.btn {
+    border-radius: 100px;
+    background-color: #000000;
+    height: 38px;
+    width: 130px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 117px;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brand img {
+    width: 130px;
+}
+
+.socials {
+    display: flex;
+    gap: 30px;
+}
+
+.socials img {
+    width: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 100px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.col h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.col p {
+    font-size: 13px;
+}
+
+@media (max-width:1000px) {
+    header {
+        padding: 24px 50px;
+    }
+
+    .txtdiv h2 {
+        font-size: 28px;
+    }
+
+    .txtdiv p {
+        font-size: 15px;
+    }
+
+    .long {
+        width: 70%;
+    }
+
+    .samediv img {
+        width: 250px;
+    }
+
+    .txtdiv2 h4 {
+        font-size: 25px;
+    }
+
+    .txtdiv2 p {
+        font-size: 20px;
+    }
+
+    .txtdiv2 h3 {
+        font-size: 15px;
+    }
+
+    .section4 h2 {
+        font-size: 25px;
+        width: 110%;
+    }
+}
+
+@media (max-width:880px) {
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 30px 40px;
+    }
+
+    .txtdiv h2 {
+        font-size: 23px;
+    }
+
+    .txtdiv p {
+        font-size: 14px;
+    }
+
+    .samecard img {
+        width: 200px;
+    }
+
+    .samecard h4, .samecard h5, .samecard p {
+        font-size: 14px;
+    }
+
+    .samecard {
+        gap: 15px;
+    }
+
+    .samediv img {
+        width: 40%;
+    }
+
+    .samediv {
+        gap: 100px;
+    }
+
+    .section5 h2 {
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+
+    footer {
+        padding:50px 55px;
+    }
+}
+
+@media (max-width:830px) {
+    ul {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .icons img {
+        width: 20px;
+    }
+
+    .thalby {
+        width: 70px;
+    }
+
+    header {
+        padding: 24px 40px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero img {
+        width: 80%;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .samediv {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .txtdiv2 {
+        width: 90%;
+    }
+
+    .samediv img {
+        width: 200px;
+    }
+
+    .section5 h2 {
+        font-size: 15px;
+        padding: 0px 25px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap:50px;
+        align-items: center;
+    }
+
+    .formdiv1 form {
+        flex-direction: column;
+        gap:23px;
+    }
+
+    .formdiv2 input {
+        width:184px;
+    }
+
+    .section6 p {
+        font-size:15px;
+        width:280px;
+    }
+}

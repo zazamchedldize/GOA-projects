@@ -1,0 +1,58 @@
+/* 1)შექმენით ერთი დივი რომელიც იქნება წითელი ფერის
+
+ანიმაციის ეტაპები:
+
+პირველი --> დივი გახდეს ყვითელი ფერის და ჩამოვიდეს ქვემოთ 50px ით
+
+მეორე --> დივი გახდეს ლურჯი ფერის და მომრგვალდეს 20პხ ით ასევე გაიწიოს მარჯვნივ 50px ით,ასევე დატრიალდეს 40deg ით
+
+მესამე --> დივი გახდეს სტაფილოსფერი და გახდეს სრულიად მრგვალი ,გაუჩნდეს წითელი ბორდერი
+
+------
+
+ანიმაცია გაგრძელდეს 5 წამის განმავლობაში
+
+დაიწყოს 3 წამის შემდეგ 
+
+და ამიმმაცია მოხდეს 4 ჯერ */
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+
+@keyframes animation {
+
+
+    0% {
+        background-color: red;
+        transform: translate(0, 0);
+        border-radius: 0;
+    }
+
+    25% {
+        background-color: yellow;
+        transform: translate(0, 50px);
+    }
+
+    50% {
+        background-color: blue;
+        border-radius: 20px;
+        transform: translate(50px, 50px) rotate(40deg);
+    }
+
+ 
+    100% {
+        background: orange;
+        transform: translate(50px, 50px) rotate(40deg);
+        border-radius: 50%;
+        border: 3px solid red;
+    }
+}
+

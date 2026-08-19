@@ -1,0 +1,25 @@
+.parent {
+    border:2px solid red;
+    height:600px;
+    width:900px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.child1 {
+    background-color: blue;
+    width:150px;
+    height:80px
+}
+
+.child2 {
+    height:80px;
+    width:100px;
+    background-color: blue;
+}
+
+.child3 {
+    height:80px;
+    width:180px;
+    background-color: blue;
+}

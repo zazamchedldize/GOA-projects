@@ -1,0 +1,10 @@
+/* 6)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი.
+ელემენტები განათავსე ცენტრში. ორივე ღერძზე */
+
+
+.parent {
+    width:500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

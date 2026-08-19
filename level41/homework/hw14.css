@@ -1,0 +1,11 @@
+/* 14)შექმენი ლინკი.
+:visited მდგომარეობაში:
+
+background-color შეიცვალოს
+
+ტექსტის ფერი გახდეს მწვანე */
+
+a:visited {
+    background-color: purple;
+    color:green;
+}

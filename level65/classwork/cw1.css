@@ -1,0 +1,36 @@
+/* 1)შექმენი დივი
+
+ფერი მწვანე , სიგანე სიმაღლე 300px , ბორდერი 1პხ წითელი ფერის
+
+შენი დავალებაა hover ზე მისცე დივს შემდეგი სტილები -->
+
+ფერი გახდეს ყვითელი 2s ში
+
+border გაუსქელდეს და გახდეს 5პხ ლურჯი ფერის 5s ში
+
+მოუმრგვალდეს კუთხეები 20პხ ით 3s ში
+
+სიგანე გახდეს 400px 6s ში
+
+სიმაღლე გახდეს 350პხ 3s ში
+
+ჩამოვიდეს ქვემოთ(translateY) 100px ით 7s ში
+
+სიჩქარე იყოს constant(linear) */
+
+.div {
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    transition: background-color 2s linear,border 5s linear,border-radius 3s linear,width 6s linear,height 3s linear, transform 7s linear;
+}
+
+.div:hover {
+    background-color: yellow;
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 400px;
+    height: 350px;
+    transform: translateY(100px);
+}

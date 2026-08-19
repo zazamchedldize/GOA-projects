@@ -1,0 +1,12 @@
+/* 6)შექმენი button.
+active-ზე:
+
+background-color შეიცვალოს
+
+ტექსტის ფერი შეიცვალოს */
+
+
+button:active {
+    background-color: blue;
+    color:green;
+}

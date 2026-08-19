@@ -1,0 +1,22 @@
+/* 13)გაქვს flex container პატარა ზომით მაგ 400px და შიგნით რამდენიმე ელემენტი.
+
+ელემენტებს აქვს დიდი flex-basis (მაგ: 300px) თითოეულს
+
+გააკეთე ისე, რომ:
+
+ელემენტები არ შემცირდნენ საერთოდ ანუ არ შეიკუმშნონ
+და გადავიდნენ ახალ ხაზზე ეკრანის შემიცირებასთან ერთად */
+
+.parent {
+    width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid red;
+}
+
+.child {
+    width:180px;
+    height:100px;
+    flex-shrink: 0;
+    background-color: blue;
+}

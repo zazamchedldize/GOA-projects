@@ -1,0 +1,20 @@
+/* 1)შექმენი div, რომელსაც hover-ზე:
+background-color შეიცვლება 0.3 წამში 
+ზომა გაიზრდება 0.6 წამში 
+rotate მოხდება 1 წამში 
+delay ქონდეს 3s */
+
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition:background-color 0.3s,width 0.6s,height 0.6s,transform 1s;
+    transition-delay: 3s;
+}
+
+.div:hover{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+}

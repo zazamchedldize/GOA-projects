@@ -1,0 +1,9 @@
+p {
+    font-size:80px;
+    color:darkgray;
+    text-align: center;
+    font-weight:bolder;
+    text-shadow:
+    10px 10px 10px rgb(133, 133, 130, 0.727),
+    10px -5px 3px rgb(133, 133, 130, 0.727);
+}

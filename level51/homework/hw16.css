@@ -1,0 +1,26 @@
+/* 16)გაქვს 3 ელემენტი.
+
+დაწერე shorthand(შემოკლებულად) ისე, რომ:
+
+ყველა ელემენტი გაიზარდოს თანაბრად
+
+არ შემცირდნენ
+
+საწყისი ზომა იყოს 150px */
+
+.parent {
+  display: flex;
+  gap: 10px;
+  border:2px solid green;
+  width:900px;
+  height: 600px;
+}
+
+.child {
+  flex: 1 0 150px;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

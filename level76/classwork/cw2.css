@@ -1,0 +1,37 @@
+/* 2)შექმენი მშბელი დივი როგორც ზემთ დავალებაში, დაყავით ეს დივი --> ორი როუ ზომებით 200px 400px და ორი ქოლუმნი ზომებით --> 100px 500px  შექმენით ამ დივში 4 დივი და გააფერადეთ თქვენთვის სასურველ ფერებად */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parent {
+    display: grid;
+    grid-template-rows: 200px 400px;
+    grid-template-columns: 100px 500px;
+    border:4px solid red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}

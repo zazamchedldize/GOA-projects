@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+h {
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    font-family: "Fjalla One", sans-serif;
+}

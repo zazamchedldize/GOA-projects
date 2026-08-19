@@ -1,0 +1,36 @@
+/* შექმენით მშობელი ელემენტი რომელსაც დაყობთ 9 ტოლ ნაწილად, გამოიყენეთ REPEAT ,auto-fit და minmax რომ გახადოთ ეს დიაზინი რესპონსიული
+
+თითეულ კუბიკში მოათავსეთ ფოტოები,ასევე დააშორეთ ისინი ერთმანეთს რომ უფრო ლამაზი გამოვიდეს,გაცენტრეთ მთლიანი კონტენტი(გრიდი)მშოგელ ელემენტში,ასევე გაცენტრეთ ფოტოები თავიანთ კუბიკებში(გამოიყენეთ წინაზე ახსნილი მასალა) დააპატარავეთ ეკრანი რომ ნახოთ რესპონსიულია თუ არა თქვენი მინი ვებსაიტი */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+    background:#f2f2f2;
+}
+
+.parent{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap:10px;
+    border:2px solid red;
+}
+
+.child{
+    height:200px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.parent img{
+    width:90px;
+    height: 90px;
+}

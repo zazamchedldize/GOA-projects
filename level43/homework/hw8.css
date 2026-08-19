@@ -1,0 +1,13 @@
+.list1 { list-style-type: decimal-leading-zero; }
+
+.list2 { list-style-type: decimal; }
+
+.list3 { list-style-type: georgian; }
+
+.list4 { list-style-type: upper-roman; }
+
+.list5 { list-style-type: lower-roman; }
+
+.list6 { list-style-type: upper-alpha; }
+
+.list7 { list-style-type: lower-alpha; }

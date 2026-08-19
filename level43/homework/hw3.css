@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: gold;
+}
+
+.boy {
+    background-color: rgb(156, 37, 69);
+}
+
+.two {
+    background-color: red;
+}
+
+.man {
+    background-color: rgb(182, 178, 178);
+}
+
+.men {
+    background-color: aqua;
+}
+
+.table {
+    background-color: rgb(68, 90, 68);
+}
+
+.four {
+    background-color: gray;
+}
+
+.animal {
+    background-color: brown;
+}
+
+.animals {
+    background-color: rgb(222, 222, 152);
+}
+
+.numbers {
+    background-color: yellow;
+}
+
+.singular {
+    background-color: orange;
+}
+
+.plural {
+    background-color: green;
+}

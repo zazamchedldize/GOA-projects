@@ -1,0 +1,31 @@
+/* 9)შექმენით საიტზე შემდეგი თეგები შემდეგი კომბინაციით ==>
+
+<p> .... </p>
+<button>...</button>
+<h1> ... </h1>
+
+
+შენი დავალერბაა რომ ღილაკს მისცე padding ზემოდან და ქვემოდან 20px და გვერდებიდან 100px
+
+ასევე მიეცი ბორდერი ყველა მხარეს 10px dashed red
+
+ასევე მიეცი დაშორება ბორდერსა და გარე ელემენტებს შორის ზემოდან - 150პხ , მარჯვნიდან - 200px ,ქვევიდან - 40px ,მარცხნიდან 121px 
+
+ასევე h1 ს მიეცი გარე დაშორება (margin) მხოლოდ ზემოდან 95px */
+
+button {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  border-top: 5px solid red;
+  border-right: 5px solid blue;
+  border-bottom: 5px solid green;
+  border-left: 5px solid orange;
+
+  margin-top: 148px;
+  margin-right: 148px;
+  margin-bottom: 148px;
+  margin-left: 148px;
+}

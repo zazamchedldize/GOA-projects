@@ -1,0 +1,26 @@
+/* 7)შექმენით 5 ღილაკი,მიეცით 5 ივეს ბორდერები */
+
+.b1 {
+    border:2px red dotted;
+    padding:5px;
+}
+
+.b2 {
+    border:2px blue solid;
+    padding:5px;
+}
+
+.b3 {
+    border:2px green dashed;
+    padding:6px;
+}
+
+.b4 {
+    border:5px yellow solid;
+    padding:8px;
+}
+
+.b5 {
+    border:3px purple dotted;
+    padding:9px;
+}

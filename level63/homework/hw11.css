@@ -1,0 +1,22 @@
+/* 11)შექმენი კვადრატი:
+
+ნორმალურ მდგომარეობაში ცენტრში იყოს
+hover-ზე:
+ქვემოთ ჩავიდეს 50px ით
+
+გაიზარდოს ზომაში 3 ჯერ
+
+45 გრადუსით შემოტრიალდეს */
+
+
+.parent {
+    width: 120px;
+    height: 120px;
+    background: blue;
+    margin: 200px auto;
+    background: url("dog-7206321_640.jpg") no-repeat center/cover;
+}
+
+.parent:hover {
+    transform: translateY(50px) scale(3) rotate(45deg);
+}

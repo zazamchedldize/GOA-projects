@@ -1,0 +1,16 @@
+/* 2)გამოიყენე წინა დავალებაში შექმნილი მშოვბელი
+
+დავალება:
+
+დააყენე flex-direction: row
+
+შემდეგ შეცვალე flex-direction: column
+
+აღწერე რა განსხვავებაა ამ ორ კუთვნილებას შორის კომენტარით */
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    flex-direction: column;
+
+}

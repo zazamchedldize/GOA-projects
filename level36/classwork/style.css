@@ -1,0 +1,19 @@
+/* შექმენი დივი რომელშიც იქნება ერთი h1 თეგი, ერთი პარაგრაფი, და ერთი დაულაგებელი ცხრილი, გასტილე დივი inline css-ის გამოყენებით, გასტილე h1 id-ის გამოყენებით external css-ში, პარაგრაფის გასასტილად გამოიყენე კლასები, ხოლოდ დაულაგებელი ცხრილის გასასტილად tag selectorი, სტილები შენით მოიფიქრე არ აქვს მნიშვნელობა */
+
+#first {
+    color:green;
+    font-size:30px;
+    border: 2px solid black;
+}
+
+.second {
+    color:purple;
+    font-size:43px;
+    border:3px solid red;
+}
+
+ul {
+    color: yellow;
+    font-size:15px;
+    border:5px dashed pink;
+}

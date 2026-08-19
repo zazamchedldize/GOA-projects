@@ -1,0 +1,9 @@
+/* 7)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი.
+ელემენტები განათავსე ქვემოთ მარჯვენა კითხეში. */
+
+.parent {
+    width:500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

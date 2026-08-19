@@ -1,0 +1,11 @@
+/* 9)შექმენი 3 ლინკი.
+:link მდგომარეობაში:
+
+ტექსტი იყოს ლურჯი
+
+არ ჰქონდეს underline */
+
+a:link {
+    color:blue;
+    text-decoration: none;
+}

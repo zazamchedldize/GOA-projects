@@ -1,0 +1,17 @@
+/* 7)შექმენი loading-style box, რომელსაც hover-ზე:
+rotate(360deg) შესრულდეს 1.5s
+border-radius გახდეს 50% 0.5s-ში
+background-color შეიცვალოს 0.4s */
+
+.box{
+    width:150px;
+    height:150px;
+    background-color: blue;
+    transition: background-color 0.4s, border-radius 0.5s, transform 1.5s;
+}
+
+.box:hover{
+    background-color: red;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}

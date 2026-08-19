@@ -1,0 +1,16 @@
+/* 13)შექმენი ღილაკი (button), რომელსაც :active დროს:
+scale(0.9) გაუკეთდება
+rotate მოხდება 45deg
+delay 2s
+duration all 4s */
+
+button {
+    width:200px;
+    height: 80px;
+    transition: all 4s 2s;
+
+}
+
+button:active {
+    transform: scale(0.9) rotate(45deg);
+}

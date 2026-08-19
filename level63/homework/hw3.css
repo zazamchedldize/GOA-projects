@@ -1,0 +1,16 @@
+/* 3)შექმენი section:
+
+სურათის პოზოვია იყოს ქვედა მარჯვენა კუთხეში
+
+განმეორდეს მხოლოდ x
+
+ზომა იყოს 150px 150px
+
+ასევე ბოლოს - ყველაფერი ერთ ხაზში (shorthand) */
+
+
+.sec {
+    width: 500px;
+    height: 300px;
+    background: url("dog-7206321_640.jpg") repeat-x right bottom / 150px 150px;
+}

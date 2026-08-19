@@ -1,0 +1,25 @@
+/* 1)შექმენით ერთ დივი მიეცით ზომები 600პხ 600პხ და ბორდერი
+
+შენი დავალებაა რომ ამ დივში შექმნა ზუსტად 12 ტოლი კუბიკი ,დაყავი დივი ისე რომ მთ₾იანობაში გამოგივიდეთ 12 ტოლი უჯრა */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#parent {
+    width:600px;
+    height: 600px;
+    border:3px solid red;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 200px 200px 200px;
+}

@@ -1,0 +1,25 @@
+/* 2)გაქვს კონტეინერი (height: 300px).
+შიგნით არის 3 div.
+
+ყველა ელემენტი დალაგებულია align-items: center-ით
+მაგრამ მეორე div უნდა გადავიდეს ზემოთ (container-ის დასაწყისში)
+
+გამოიყენე მხოლოდ align-self */
+
+
+.parent {
+    height:300px;
+    display: flex;
+    align-items: center;
+    border:2px solid red
+}
+
+#second {
+    align-self: start;
+}
+
+.child {
+    background-color: blue;
+    width:80px;
+    height: 100px;;
+}

@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.parent {
+    position: relative;
+    width: 260px;
+    height: 250px;
+    margin-top: 200px;
+}
+
+.big-circle {
+    background-color: hsl(181, 100%, 41%);
+    width: 260px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circle {
+    width: 220px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-circle {
+    background-color: hsl(181, 100%, 41%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    animation: spinning 6s linear infinite;
+}
+
+.line {
+    background-color: hsl(181, 100%, 41%);
+    width: 5px;
+    height: 90px;
+    position: absolute;
+    bottom: 10px; 
+}
+
+.circle2 {
+    background-color: hsl(181, 100%, 41%);   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 110px;
+    z-index: 3;
+}
+
+.circle3 {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

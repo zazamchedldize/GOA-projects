@@ -1,0 +1,37 @@
+/* 14)გაქვს 3 ელემენტი:
+
+ყველას აქვს flex-basis: 250px
+container არის 500px
+
+გააკეთე ისე, რომ:
+
+shrink გადანაწილდეს არათანაბრად
+ერთი ელემენტი თითქმის უცვლელი დარჩეს */
+
+.parent {
+    border:2px solid red;
+    width:900px;
+    height:600px;
+    display: flex;
+}
+
+.child {
+    flex-basis: 250px;
+    height:100px;
+    background-color: blue;
+}
+
+.first {
+  flex-shrink: 0.1; 
+  background-color: yellow;
+}
+
+.second {
+  flex-shrink: 1; 
+  background-color: green;
+}
+
+.third {
+  flex-shrink: 2;  
+  background-color: white;
+}

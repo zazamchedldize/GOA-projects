@@ -1,0 +1,8 @@
+/* 5)შექმენი კონტეინერი (width: 500px) და 3 ბლოკი.
+ელემენტები განათავსე მარჯვენა მხარეს. */
+
+.parent {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}

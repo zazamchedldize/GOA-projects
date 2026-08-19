@@ -1,0 +1,19 @@
+/* 8)შექმენი animated button:
+scale გაიზარდოს 0.3s
+box-shadow გაფართოვდეს 0.7s
+ტექსტის ფერი შეიცვალოს 0.2s
+shadow effect დაიწყოს 0.1s delay-ით */
+
+button{
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    transition: color 0.2s, transform 0.3s, box-shadow 0.7s 0.1s;
+}
+
+button:hover{
+    color: yellow;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}

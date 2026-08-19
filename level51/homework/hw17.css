@@ -1,0 +1,29 @@
+/* 17)გაქვს flex container და 2 ელემენტი.
+
+გააკეთე ისე, რომ:
+
+პირველი ელემენტი: არ გაიზარდოს, არ შემცირდეს, იყოს 200px
+
+მეორე ელემენტი: დაიკავოს დარჩენილი სივრცე */
+
+.parent {
+    display: flex;
+    border:2px solid red;
+    width:900px;
+    height: 600px;
+}
+
+.child {
+    width:180px;
+    height: 100px;
+    background-color: green;
+    border:2px solid purple;
+}
+
+.first{
+    flex: 0 0 200px;
+}
+
+.second {
+    flex: 1 0 0;
+}
