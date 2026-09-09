@@ -1,0 +1,41 @@
+<!-- 9)let x = 10;
+
+function outer() {
+    let x = 20;
+
+    function middle() {
+        let y = 30;
+
+        function inner() {
+            let x = 40;
+
+            console.log(x);
+            console.log(y);
+        }
+
+        inner();
+    }
+
+    middle();
+}
+
+outer();
+
+დავალება:
+
+რა დაიბეჭდება?
+inner()-ში რომელი x გამოიყენება?
+თუ inner()-დან let x = 40 წავშლით, რომელი x იქნება გამოყენებული?
+თუ middle()-დანაც წავშლით let y = 30-ს, რა მოხდება console.log(y)-ზე? -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="hw9.js"></script>
+</body>
+</html>
