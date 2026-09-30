@@ -22,9 +22,7 @@
 
 // დამატებითი პირობა: transform()-ში არ უნდა დაწერო არც ერთი if და არც switch
 
-function transform(number, operation) {
-    return operation(number)
-}
+
 
 function double(number) {
     return number * 2
@@ -40,6 +38,10 @@ function addTen(number) {
 
 function half(number) {
     return number / 2
+}
+
+function transform(number, operation) {
+    return operation(number)
 }
 
 console.log(transform(20, double))
