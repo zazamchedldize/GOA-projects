@@ -244,6 +244,8 @@ console.log(company.headquarters.address.building.departments.fifthFloor.manager
 console.log(company.projects.project1.name,company.projects.project1.budget,company.projects.project1.team.leader)
 console.log(company.projects.project2.team.members,company.projects.project2.team.technology.database)
 console.log(company.projects.project2.team.technology.frontend,company.projects.project2.team.technology.backend,company.projects.project2.team.technology.database)
+
+
 company.name = "TechWorld"
 company.headquarters.city = "Batumi"
 company.headquarters.address.building.number = 40
@@ -257,6 +259,8 @@ company.projects.project2.team.leader = "Giorgi"
 company.projects.project2.team.members = 15
 company.projects.project1.team.technology.frontend = "Vue.js"
 company.projects.project1.team.technology.database = "MySQL"
+
+
 company.employees = 150
 company.headquarters.postalCode = "0108"
 company.headquarters.address.building.hasElevator = true
@@ -267,6 +271,8 @@ company.headquarters.address.building.departments.fifthFloor.manager.contact.lin
 company.projects.project1.team.designer = "Mariam"
 company.projects.project2.team.technology.testing = "Jest"
 company.projects.project2.status = "In Progress"
+
+
 delete company.founded
 delete company.headquarters.country
 delete company.headquarters.address.building.floors
@@ -277,4 +283,5 @@ delete company.projects.project1.team.technology.database
 delete company.projects.project2.team.members
 delete company.projects.project1.budget
 delete company.projects.project2.team.technology.backend
+
 console.log(company)
