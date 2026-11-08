@@ -1,0 +1,348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section1 {
+    border-bottom: 1px solid grey;
+}
+
+nav {
+    margin: 0 100px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.verb {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 49px;
+    font-size: 13px;
+}
+
+.reg {
+    background-color: #FFCE31;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.burger {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.burger img {
+    width: 26px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texts1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    max-width: 50%;
+    min-height: 300px;
+    gap: 40px;
+}
+
+.section1img {
+    width: 35%;
+    padding: 80px 0;
+}
+
+.texts1 h1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 60px;
+    width: 70%;
+}
+
+.texts1 p {
+    width: 83%;
+    font-size: 19px;
+    color: #000;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    padding: 0 25px;
+    font-family: inherit;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+.formbutton {
+    background-color: #FFCE31;
+    border: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.images img,
+.icon5 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: -12px;
+}
+
+.images img:first-child {
+    margin-left: 0;
+}
+
+.icon5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCE31;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.studentstext {
+    margin-left: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+.debitcards {
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debitcards img {
+    width: 90px;
+}
+
+@media (max-width: 1024px) {
+
+    nav {
+        margin: 0 40px;
+    }
+
+    ul {
+        gap: 20px;
+    }
+
+    .div1 {
+        padding: 30px;
+    }
+
+    .texts1 {
+        gap: 25px;
+    }
+
+    .texts1 h1 {
+        font-size: 42px;
+        width: 90%;
+    }
+
+    .texts1 p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .section1img {
+        width: 40%;
+    }
+
+    .cards {
+        padding: 35px 40px;
+    }
+
+    .debitcards {
+        gap: 25px;
+    }
+
+    .debitcards img {
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        margin: 0 22px;
+    }
+
+    nav ul,
+    nav .reg {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .div1 {
+        flex-direction: column;
+        padding: 35px 22px 10px;
+        text-align: center;
+    }
+
+    .texts1 {
+        width: 100%;
+        max-width: 100%;
+        min-height: auto;
+        align-items: center;
+        gap: 22px;
+        padding: 20px 0;
+    }
+
+    .texts1 h1 {
+        width: 100%;
+        font-size: 42px;
+    }
+
+    .texts1 p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    form {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input,
+    .formbutton {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .section1img {
+        width: 75%;
+        max-width: 380px;
+        padding: 20px 0;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 35px;
+        padding: 30px 20px;
+    }
+
+    .debitcards {
+        flex-wrap: wrap;
+        gap: 25px 35px;
+    }
+
+    .debitcards img {
+        width: 65px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    nav {
+        margin: 0 16px;
+    }
+
+    .verb {
+        font-size: 21px;
+    }
+
+    .texts1 h1 {
+        font-size: 34px;
+    }
+
+    .texts1 p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .section1img {
+        width: 90%;
+    }
+
+    .cards {
+        padding: 25px 12px;
+    }
+
+    .images img,
+    .icon5 {
+        width: 38px;
+        height: 38px;
+    }
+
+    .studentstext {
+        font-size: 12px;
+        margin-left: 9px;
+    }
+
+    .debitcards img {
+        width: 55px;
+    }
+}
