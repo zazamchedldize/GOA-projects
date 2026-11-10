@@ -145,8 +145,7 @@ input::placeholder {
     align-items: center;
 }
 
-.images img,
-.icon5 {
+.images img, .icon5 {
     width: 45px;
     height: 45px;
     border-radius: 50%;

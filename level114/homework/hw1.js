@@ -34,6 +34,7 @@
 // - არასაკმარისი თანხის შემთხვევაში გამოიტანე "Insufficient balance!"
 
 
+
 let bankAccount = {
     _owner: "Goga",
     _balance: 2500,
@@ -69,7 +70,19 @@ let bankAccount = {
     },
 
     set pin(newPin) {
-        if(typeof newPin === "string" && /^[0-9]{4}$/.test(newPin)) {
+        let isValid = true
+
+        if(typeof newPin !== "string" || newPin.length !== 4) {
+            isValid = false
+        } else {
+            for(let i = 0; i < newPin.length; i++) {
+                if(newPin[i] < "0" || newPin[i] > "9") {
+                    isValid = false
+                }
+            }
+        }
+
+        if(isValid) {
             this._pin = newPin
         } else {
             console.log("PIN must contain exactly 4 digits!")
@@ -107,15 +120,19 @@ let bankAccount = {
     }
 }
 
-
 console.log(bankAccount.owner)
 bankAccount.owner = "Nika"
+
 console.log(bankAccount.balance)
 bankAccount.balance = 3000
+
 console.log(bankAccount.pin)
 bankAccount.pin = "5678"
+
 console.log(bankAccount.accountStatus)
+
 bankAccount.deposit = 500
 console.log(bankAccount.balance)
+
 bankAccount.withdraw = 1000
 console.log(bankAccount.balance)
