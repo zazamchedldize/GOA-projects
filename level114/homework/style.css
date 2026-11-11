@@ -234,8 +234,7 @@ input::placeholder {
         margin: 0 22px;
     }
 
-    nav ul,
-    nav .reg {
+    nav ul,nav .reg {
         display: none;
     }
 
@@ -275,8 +274,7 @@ input::placeholder {
         align-items: center;
     }
 
-    form input,
-    .formbutton {
+    form input,.formbutton {
         width: 100%;
         max-width: 350px;
     }
@@ -330,8 +328,7 @@ input::placeholder {
         padding: 25px 12px;
     }
 
-    .images img,
-    .icon5 {
+    .images img,.icon5 {
         width: 38px;
         height: 38px;
     }
