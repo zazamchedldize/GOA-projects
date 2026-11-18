@@ -183,6 +183,422 @@ input::placeholder {
     width: 90px;
 }
 
+.texts2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+    gap: 40px;
+}
+
+.texts2 h1 {
+    width: 500px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.texts2 p {
+    width: 350px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 20px 100px 80px;
+}
+
+.img2 img {
+    width: 35%;
+    max-width: 450px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:100px
+}
+
+.texts3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:30px;
+}
+
+.texts3 h1 {
+    font-size:35px
+}
+
+.texts3 p {
+    font-size:15px
+}
+
+.section3 img {
+    width:65%
+}
+
+.div5 h1, .div6 h1, .div7 h1 {
+    color:#000000;
+    font-size:60px
+}
+
+
+.div5 p, .div6 p, .div7 p {
+    font-size:15px
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:160px;
+    padding:0px 0px 80px 0px
+}
+
+.section4 {
+    background-color: #FFCE31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+}
+
+.section4 img {
+    width:30%
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+    padding-bottom: 70px;
+}
+
+.texts4 {
+    width:900px;
+    margin-left:100px;
+    padding-top:50px;
+}
+
+.texts4 span {
+    margin-left: 6px
+}
+
+.texts4 h1 {
+    font-size:70px
+}
+
+.footer {
+    background-color: #ffffff;
+    border-top: 50px solid #FFCE31;
+    padding: 80px 80px 20px;
+    width: 100%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #777;
+}
+
+.footer-info {
+    width: 280px;
+}
+
+.footer-info h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.footer-info p {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.footer-links {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.footer-column a:hover {
+    color: #d5a900;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.footer-bottom p {
+    font-size: 11px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+
+    .footer {
+        padding: 65px 40px 20px;
+    }
+
+    .footer-links {
+        gap: 35px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .footer {
+        border-top-width: 30px;
+        padding: 45px 25px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-info {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .footer-links {
+        width: 100%;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .footer-column {
+        gap: 22px;
+    }
+
+    .footer-column a {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .footer {
+        padding: 35px 18px 18px;
+    }
+
+    .footer-links {
+        gap: 10px;
+    }
+
+    .footer-column {
+        gap: 20px;
+    }
+
+    .footer-column a {
+        font-size: 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .div4 {
+        gap: 60px;
+        padding: 0 30px 60px;
+    }
+
+    .div5 h1,
+    .div6 h1,
+    .div7 h1 {
+        font-size: 45px;
+    }
+
+    .texts4 {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .texts4 h1 {
+        font-size: 55px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .section3 {
+        gap: 50px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .texts3 {
+        text-align: center;
+    }
+
+    .texts3 h1 {
+        font-size: 28px;
+    }
+
+    .texts3 p {
+        line-height: 24px;
+    }
+
+    .section3 img {
+        width: 100%;
+    }
+
+    .div4 {
+        width: 100%;
+        flex-direction: column;
+        gap: 35px;
+        padding: 0 0 40px;
+    }
+
+    .div5 h1,
+    .div6 h1,
+    .div7 h1 {
+        font-size: 42px;
+    }
+
+    .section4 {
+        text-align: center;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .texts4 {
+        width: 100%;
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .texts4 h1 {
+        font-size: 38px;
+    }
+
+    .apps {
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    .apps img {
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .texts3 h1 {
+        font-size: 24px;
+    }
+
+    .div5 h1,
+    .div6 h1,
+    .div7 h1 {
+        font-size: 36px;
+    }
+
+    .texts4 h1 {
+        font-size: 30px;
+    }
+
+    .apps img {
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .texts2 {
+        padding: 60px 40px;
+    }
+
+    .texts2 h1 {
+        font-size: 32px;
+    }
+
+    .img2 {
+        gap: 40px;
+        padding: 20px 40px 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .texts2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 45px 22px 25px;
+        gap: 20px;
+    }
+
+    .texts2 h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .texts2 p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .img2 {
+        flex-direction: column;
+        gap: 25px;
+        padding: 20px 22px 45px;
+    }
+
+    .img2 img {
+        width: 100%;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 400px) {
+    .texts2 h1 {
+        font-size: 26px;
+    }
+
+    .texts2 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
 @media (max-width: 1024px) {
 
     nav {
